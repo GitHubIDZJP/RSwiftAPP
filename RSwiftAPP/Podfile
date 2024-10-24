@@ -1,0 +1,15 @@
+
+
+
+platform :ios, '13.0'
+inhibit_all_warnings! 
+use_frameworks!
+target 'RSwiftAPP' do
+ 
+  
+
+#pod 'SDWebImage', '5.12.3'  
+  #pod 'TZImagePickerController' #, '3.8.6' #选择图片
+  pod 'R.swift'
+
+end
